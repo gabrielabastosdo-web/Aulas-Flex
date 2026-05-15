@@ -95,3 +95,57 @@
         #          playlit.clear()
         #  print(playlist)  
 
+
+
+# temperaturas = [30, 32, 31, 28, 29]
+# for temperatura in temperaturas:
+#         print(f'{sum(temperaturas)/len(temperaturas)}')
+
+# temperaturas = [30, 32, 31, 29, 28]
+# total = 0
+# quant = 0
+# for temperatura in temperaturas:
+#         total += temperatura
+#         quant += 1
+# print(f'{total/quant}')
+
+
+# numeros = []
+# par = 0
+# impar = 0
+# for n in numeros:
+#         if par or impar != 0:
+#                 continuar = input('deseja continuar a lista? ')
+#                 if continuar == 'não':
+#                         break
+#                 else:
+#                         numero = int(input('digite um numero: '))
+#                         numeros.append(numero)
+#                         if numero % 2 == 0:
+#                                 par += 1
+#                         else:
+#                                 impar += 1
+#         numero = int(input('digite um numero: '))
+#         numeros.append(numero)
+#         if numero % 2 == 0:
+#                 par += 1
+#         else:
+#                 impar += 1
+# soma = sum(numeros)
+# quantidade = len(numeros)
+# print(f'''
+# quantidade de elementos: {quantidade}
+# soma: {soma}
+# média: {soma / quantidade}
+# quantidade de pares: {par}
+# quantidade de impares: {impar}
+# ''')
+
+# frutas = ['maracuja' , 'kiwi' , 'lichia' , 'limão' , 'morango']
+# for fruta in frutas:
+#         procurar = input('qual fruta você deseja procurar? ')
+#         if procurar in frutas:
+#                 posicao = frutas.index(procurar)
+#                 print(f' {procurar} está na posição {posicao}')
+#         else:
+#                 print(f'{procurar} não está na lista')
